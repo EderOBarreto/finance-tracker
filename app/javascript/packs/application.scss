@@ -25,3 +25,11 @@
 .logout-button {
   margin-right: 10px;
 }
+
+.user-name {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(2, auto);
+  grid-gap: 5px;
+  padding-right: 5px;
+}
