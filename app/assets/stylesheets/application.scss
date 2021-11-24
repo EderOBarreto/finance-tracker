@@ -12,5 +12,39 @@
  *
  *= require_tree .
  *= require font-awesome
+ *= require bootstrap
  *= require_self
  */
+
+// Just a quick ugly style to see if our CSS works
+// h1 {
+//   text-decoration: underline;
+// }
+
+.search-area {
+  padding-top: 50px;
+}
+
+.no-right-padding {
+  padding-right: 0 !important;
+}
+
+.no-left-padding {
+  padding-left: 0 !important;
+}
+
+.results-block {
+  display: inline-block;
+}
+
+.logout-button {
+  margin-right: 10px;
+}
+
+.user-name {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(2, auto);
+  grid-gap: 5px;
+  padding-right: 5px;
+}
